@@ -17,4 +17,4 @@ def main():
 	print(','.join("DummyHost3", args.atestinput)
 
 if __name__ == '__main__':
-    	main()
+	main()
