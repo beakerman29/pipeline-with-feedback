@@ -14,7 +14,7 @@ def main():
 	parser.add_argument("--atestinput", help=' test input parameter to allow for seeing what happens if it is not set', choices=['set'], required=True)
 	args = parser.parse_args()
 	LOGGER.info('We are going to return a test value')
-	print("DummyHost3")
+	print(','.join("DummyHost3", args.set)
 
 
 if __name__ == '__main__':
